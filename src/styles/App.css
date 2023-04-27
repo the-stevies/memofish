@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+@font-face {
+	font-family: 'Roboto Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto Regular'), url('fonts/Roboto-Regular.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#root {
+	height: 100%;
+}
+
+.header-inner {
+	background-color: black;
+	display: flex;
+	padding: 5px 17px 10px;
+	border-radius: 0 0 20px 20px;
+	justify-content: space-around;
+	padding-top: 14px;
+}
+
+.App {
+	text-align: center;
+	min-height: 860px;
+	height: 100%;
+	display: block;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size: 100%;
+	background-color: black;
+}
+
+h1 {
+	font-size: 150%;
+	color: skyblue;
+	padding: 0;
+	margin: 10px 10px 10px;
+}
+
+h2 {
+	font-weight: 700;
+	font-family: 'Zilla Slab', serif;
+	color: rgba(254, 172, 2, 1);
+	font-size: 2.5em;
+}
+
+.card-grid {
+	margin-top: 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 12px;
+	max-width: min-content;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.score {
+	background-color: skyblue;
+	margin: 0;
+	padding: 4px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	font-size: 14px;
+	font-family: arial, helvetica;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+
+
+.scorecount {
+	background-color: black;
+	padding: 7px;
+	color: yellow;
+	margin-right: 6px;
+	font-family: 'Libre Franklin Semibold', sans-serif;
+	font-weight: 600;
+}
+
+.highscore {
+	display: flex;
+}
+
+button {
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+	color: white;
+	border-radius: 4px;
+	padding: 9px;
+	cursor: pointer;
+	margin-right: 10px;
+	font-size: 15px;
+	margin-left: 12px;
+	margin-top: 4px;
+	text-transform: uppercase;
+}
+
+.match, .value {
+	border: 1px solid #666;
+	font-size: 50px;
+	min-width: 40px;
+}
+
+.value {
+	background-color: transparent;
+	color: #F2F2F2;
+	font-family: arial;
+}
+
+.scoreTotal {
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	background-color: skyblue;
+	color: black;
+	height: 20px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.hide {
+	display: none;
+}
+
+.frame {
+	opacity: 0.3;
+}
+
+
+
+
+
+
+
+/* !IPHONE 6/7/8 */
+@media all and (min-width: 375px) {
+	.frame {
+		width: 90px;
+	}
+	.back {
+		width: 90px;
+	}
+	.flipped .front, .card .front
+	 {
+		width: 90px;
+	}
+	.header-inner {
+		width: 100%;
+	}
+
+}
+
+/* !IPAD 768PX */
+@media all and (min-width: 768px) {
+	.frame {
+		width: 170px;
+	}
+	.back {
+		width: 170px;
+	}
+	.flipped .front, .card .front {
+		width: 170px;
+	}
+	.header-inner {
+		width: auto;
+	}
+}
+
+/* Desktop */
+@media all and (min-width: 1024px) {
+	.frame {
+		width: 250px;
+	}
+	.back {
+		width: 250px;
+	}
+	.flipped .front, .card .front {
+		width: 250px;
+	}
+}
