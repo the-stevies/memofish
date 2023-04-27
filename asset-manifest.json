@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/memofish/static/css/main.afd42ed0.css",
-    "main.js": "/memofish/static/js/main.66c18aac.js",
+    "main.js": "/memofish/static/js/main.dcbd8be2.js",
     "static/media/Instagram.png": "/memofish/static/media/Instagram.7618c0fff7b3af6bac2a.png",
     "static/media/filz.jpg": "/memofish/static/media/filz.45d67b2e142121889ccf.jpg",
     "static/media/Roboto-Regular.woff": "/memofish/static/media/Roboto-Regular.f7bafc7e0b4cc5d4a0d9.woff",
     "index.html": "/memofish/index.html",
     "main.afd42ed0.css.map": "/memofish/static/css/main.afd42ed0.css.map",
-    "main.66c18aac.js.map": "/memofish/static/js/main.66c18aac.js.map"
+    "main.dcbd8be2.js.map": "/memofish/static/js/main.dcbd8be2.js.map"
   },
   "entrypoints": [
     "static/css/main.afd42ed0.css",
-    "static/js/main.66c18aac.js"
+    "static/js/main.dcbd8be2.js"
   ]
 }
