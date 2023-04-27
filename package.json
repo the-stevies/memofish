@@ -1,6 +1,6 @@
 {
-  "homepage": "https://the-stevies.github.io/fishmem",
-  "name": "fishmem",
+  "homepage": "https://the-stevies.github.io/memofish",
+  "name": "memofish",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
