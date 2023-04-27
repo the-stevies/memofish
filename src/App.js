@@ -90,7 +90,7 @@ function App() {
               <div className="value">{scoreTotal}</div>
               <div className="value"><div className="match">{match}</div> </div>
             </div>
-            <button onClick={shuffleCards}><strong>Play</strong></button>
+            <button className='button' onClick={shuffleCards}><strong>Play</strong></button>
 
           </div>
         </div>
